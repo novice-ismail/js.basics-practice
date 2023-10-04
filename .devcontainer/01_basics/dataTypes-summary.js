@@ -29,10 +29,35 @@ const myFunction = function(){
     console.log("Hello World");
 }
 
-console.log(typeof outsideTemp);
-console.log(typeof bigInt);
-console.log(typeof heros);
-console.log(typeof myObj);
-console.log(typeof myFunction);
-console.log(typeof id);
-console.log(typeof anotherId);
+// console.log(typeof outsideTemp);
+// console.log(typeof bigInt);
+// console.log(typeof heros);
+// console.log(typeof myObj);
+// console.log(typeof myFunction);
+// console.log(typeof id);
+// console.log(typeof anotherId);
+
+
+// **************************************************
+
+// Stack (primitive), Heap (Non-Primitive)
+
+let myYoutubename = "coderspracticedotcom"
+
+let anothername = myYoutubename
+anothername = "myPractice"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = 
+{
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "tony@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
