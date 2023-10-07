@@ -1,4 +1,5 @@
-const tinderUser = new Object()
+//const tinderUser = new Object() // singleton
+const tinderUser = {}
 
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
